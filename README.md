@@ -1,6 +1,12 @@
 #CJAHaversine
+Calculate the distance betweens two GPS coordinates with the [Haversine Formular](http://en.wikipedia.org/wiki/Haversine_formula)
 
 ##Installation
+* Drag & Drop `CJAHaversine.h` and `CJAHaversine.h` to your project
+
+If you want to use the `CLLocationCoordinate2D` functions:
+* Add the `CoreLocation` framework to your target
+* Import `<CoreLocation/CoreLocation.h>` to your targets `...-Prefix.pch` file
 
 ##Usage
 calculate the distance in the imperial system:
