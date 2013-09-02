@@ -31,9 +31,37 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
 
   double distance = kHaversineDistanceError;
   
-  distance = CJAHaversineKilometersBetweenCLLocations(first, second);
-  distance = CJAHaversineMetersBetweenCLLocations(first, second);
+  //Imperial Functions//
 
+  //Calculate the distance between two location in kilometers
+  distance = CJAHaversineMilesBetweenLocations(lat1, lon1, lat2, lon2);
+  
+  //Calculate the distance between two location in meters
+  distance = CJAHaversineFeetsBetweenLocations(lat1, lon1, lat2, lon2);
+
+  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+  distance = CJAHaversineMilesBetweenCLLocations(first, second);
+  
+  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+  distance = CJAHaversineFeetsBetweenCLLocations(first, second);
+  
+  
+  //Metric Functions
+  
+  //Calculate the distance between two location in kilometers
+  distance = CJAHaversineKilometersBetweenLocations(lat1, lon1, lat2, lon2);
+
+  //Calculate the distance between two location in meters
+  distance = CJAHaversineMetersBetweenLocations(lat1, lon1, lat2, lon2);
+
+  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+  distance = CJAHaversineKilometersBetweenLocations(lat1, lon1, lat2, lon2);
+  
+  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+  distance = CJAHaversineMetersBetweenLocations(lat1, lon1, lat2, lon2);
+
+  
+  
 }
 
 @end
