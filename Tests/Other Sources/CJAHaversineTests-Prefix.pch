@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'CJAMacrosTests' target in the 'CJAMacrosTests' project
+//
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+  #import <CoreLocation/CoreLocation.h>
+
+#endif

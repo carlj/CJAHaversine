@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA83F9A317D506390016307E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9A217D506390016307E /* UIKit.framework */; };
+		FA83F9A517D506390016307E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9A417D506390016307E /* Foundation.framework */; };
+		FA83F9A717D506390016307E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9A617D506390016307E /* CoreGraphics.framework */; };
+		FA83F9C117D506390016307E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9C017D506390016307E /* SenTestingKit.framework */; };
+		FA83F9C217D506390016307E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9A217D506390016307E /* UIKit.framework */; };
+		FA83F9C317D506390016307E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA83F9A417D506390016307E /* Foundation.framework */; };
+		FAA1945317D5132400C49D2F /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA1945217D5132400C49D2F /* ExampleViewController.m */; };
+		FAA1945417D5274300C49D2F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACBF35817D50A4000C946F0 /* CoreLocation.framework */; };
+		FACBF33F17D5079A00C946F0 /* CJAHaversine.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBF33E17D5079A00C946F0 /* CJAHaversine.m */; };
+		FACBF34217D507A700C946F0 /* CJAHaversineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBF34117D507A700C946F0 /* CJAHaversineTests.m */; };
+		FACBF34817D507C100C946F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACBF34517D507C100C946F0 /* Default-568h@2x.png */; };
+		FACBF34917D507C100C946F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FACBF34617D507C100C946F0 /* Default.png */; };
+		FACBF34A17D507C100C946F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACBF34717D507C100C946F0 /* Default@2x.png */; };
+		FACBF34F17D507D200C946F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBF34D17D507D200C946F0 /* main.m */; };
+		FACBF35217D507DA00C946F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBF35117D507DA00C946F0 /* AppDelegate.m */; };
+		FACBF35317D507E100C946F0 /* CJAHaversine.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBF33E17D5079A00C946F0 /* CJAHaversine.m */; };
+		FACBF35917D50A4000C946F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACBF35817D50A4000C946F0 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA83F9C417D506390016307E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA83F99717D506390016307E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA83F99E17D506390016307E;
+			remoteInfo = CJAHaversine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA83F99F17D506390016307E /* CJAHaversine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJAHaversine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83F9A217D506390016307E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA83F9A417D506390016307E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA83F9A617D506390016307E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA83F9BF17D506390016307E /* CJAHaversineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJAHaversineTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83F9C017D506390016307E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAA1945117D5132400C49D2F /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleViewController.h; path = Example/Classes/ExampleViewController.h; sourceTree = "<group>"; };
+		FAA1945217D5132400C49D2F /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleViewController.m; path = Example/Classes/ExampleViewController.m; sourceTree = "<group>"; };
+		FACBF33D17D5079A00C946F0 /* CJAHaversine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJAHaversine.h; sourceTree = "<group>"; };
+		FACBF33E17D5079A00C946F0 /* CJAHaversine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJAHaversine.m; sourceTree = "<group>"; };
+		FACBF34017D507A700C946F0 /* CJAHaversineTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJAHaversineTests.h; path = Tests/CJAHaversineTests.h; sourceTree = SOURCE_ROOT; };
+		FACBF34117D507A700C946F0 /* CJAHaversineTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJAHaversineTests.m; path = Tests/CJAHaversineTests.m; sourceTree = SOURCE_ROOT; };
+		FACBF34517D507C100C946F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Example/Ressources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		FACBF34617D507C100C946F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Example/Ressources/Default.png; sourceTree = "<group>"; };
+		FACBF34717D507C100C946F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Example/Ressources/Default@2x.png"; sourceTree = "<group>"; };
+		FACBF34B17D507D200C946F0 /* CJAHaversine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CJAHaversine-Info.plist"; path = "Example/Other Sources/CJAHaversine-Info.plist"; sourceTree = "<group>"; };
+		FACBF34C17D507D200C946F0 /* CJAHaversine-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CJAHaversine-Prefix.pch"; path = "Example/Other Sources/CJAHaversine-Prefix.pch"; sourceTree = "<group>"; };
+		FACBF34D17D507D200C946F0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Example/Other Sources/main.m"; sourceTree = "<group>"; };
+		FACBF35017D507DA00C946F0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		FACBF35117D507DA00C946F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/Classes/AppDelegate.m; sourceTree = "<group>"; };
+		FACBF35417D5096D00C946F0 /* CJAHaversineTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CJAHaversineTests-Info.plist"; path = "Tests/Other Sources/CJAHaversineTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FACBF35717D509CB00C946F0 /* CJAHaversineTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CJAHaversineTests-Prefix.pch"; path = "Tests/Other Sources/CJAHaversineTests-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		FACBF35817D50A4000C946F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA83F99C17D506390016307E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACBF35917D50A4000C946F0 /* CoreLocation.framework in Frameworks */,
+				FA83F9A317D506390016307E /* UIKit.framework in Frameworks */,
+				FA83F9A517D506390016307E /* Foundation.framework in Frameworks */,
+				FA83F9A717D506390016307E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83F9BB17D506390016307E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA83F9C117D506390016307E /* SenTestingKit.framework in Frameworks */,
+				FA83F9C217D506390016307E /* UIKit.framework in Frameworks */,
+				FA83F9C317D506390016307E /* Foundation.framework in Frameworks */,
+				FAA1945417D5274300C49D2F /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA83F99617D506390016307E = {
+			isa = PBXGroup;
+			children = (
+				FA83F9A817D506390016307E /* CJAHaversine */,
+				FACBF33917D5071300C946F0 /* Example */,
+				FA83F9C617D506390016307E /* Tests */,
+				FA83F9A117D506390016307E /* Frameworks */,
+				FA83F9A017D506390016307E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA83F9A017D506390016307E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA83F99F17D506390016307E /* CJAHaversine.app */,
+				FA83F9BF17D506390016307E /* CJAHaversineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA83F9A117D506390016307E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF35817D50A4000C946F0 /* CoreLocation.framework */,
+				FA83F9A217D506390016307E /* UIKit.framework */,
+				FA83F9A417D506390016307E /* Foundation.framework */,
+				FA83F9A617D506390016307E /* CoreGraphics.framework */,
+				FA83F9C017D506390016307E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA83F9A817D506390016307E /* CJAHaversine */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF33D17D5079A00C946F0 /* CJAHaversine.h */,
+				FACBF33E17D5079A00C946F0 /* CJAHaversine.m */,
+			);
+			path = CJAHaversine;
+			sourceTree = "<group>";
+		};
+		FA83F9C617D506390016307E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF34017D507A700C946F0 /* CJAHaversineTests.h */,
+				FACBF34117D507A700C946F0 /* CJAHaversineTests.m */,
+				FA83F9C717D506390016307E /* Other Sources */,
+			);
+			name = Tests;
+			path = CJAHaversineTests;
+			sourceTree = "<group>";
+		};
+		FA83F9C717D506390016307E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF35417D5096D00C946F0 /* CJAHaversineTests-Info.plist */,
+				FACBF35717D509CB00C946F0 /* CJAHaversineTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FACBF33917D5071300C946F0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF33C17D5073000C946F0 /* Classes */,
+				FACBF33B17D5072600C946F0 /* Other Sources */,
+				FACBF33A17D5071B00C946F0 /* Ressources */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		FACBF33A17D5071B00C946F0 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF34517D507C100C946F0 /* Default-568h@2x.png */,
+				FACBF34617D507C100C946F0 /* Default.png */,
+				FACBF34717D507C100C946F0 /* Default@2x.png */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		FACBF33B17D5072600C946F0 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FACBF34B17D507D200C946F0 /* CJAHaversine-Info.plist */,
+				FACBF34C17D507D200C946F0 /* CJAHaversine-Prefix.pch */,
+				FACBF34D17D507D200C946F0 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FACBF33C17D5073000C946F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1945117D5132400C49D2F /* ExampleViewController.h */,
+				FAA1945217D5132400C49D2F /* ExampleViewController.m */,
+				FACBF35017D507DA00C946F0 /* AppDelegate.h */,
+				FACBF35117D507DA00C946F0 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA83F99E17D506390016307E /* CJAHaversine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83F9D117D506390016307E /* Build configuration list for PBXNativeTarget "CJAHaversine" */;
+			buildPhases = (
+				FA83F99B17D506390016307E /* Sources */,
+				FA83F99C17D506390016307E /* Frameworks */,
+				FA83F99D17D506390016307E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJAHaversine;
+			productName = CJAHaversine;
+			productReference = FA83F99F17D506390016307E /* CJAHaversine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA83F9BE17D506390016307E /* CJAHaversineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83F9D417D506390016307E /* Build configuration list for PBXNativeTarget "CJAHaversineTests" */;
+			buildPhases = (
+				FA83F9BA17D506390016307E /* Sources */,
+				FA83F9BB17D506390016307E /* Frameworks */,
+				FA83F9BC17D506390016307E /* Resources */,
+				FA83F9BD17D506390016307E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA83F9C517D506390016307E /* PBXTargetDependency */,
+			);
+			name = CJAHaversineTests;
+			productName = CJAHaversineTests;
+			productReference = FA83F9BF17D506390016307E /* CJAHaversineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA83F99717D506390016307E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Carl Jahn";
+			};
+			buildConfigurationList = FA83F99A17D506390016307E /* Build configuration list for PBXProject "CJAHaversine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA83F99617D506390016307E;
+			productRefGroup = FA83F9A017D506390016307E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA83F99E17D506390016307E /* CJAHaversine */,
+				FA83F9BE17D506390016307E /* CJAHaversineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA83F99D17D506390016307E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACBF34817D507C100C946F0 /* Default-568h@2x.png in Resources */,
+				FACBF34917D507C100C946F0 /* Default.png in Resources */,
+				FACBF34A17D507C100C946F0 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83F9BC17D506390016307E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA83F9BD17D506390016307E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA83F99B17D506390016307E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACBF33F17D5079A00C946F0 /* CJAHaversine.m in Sources */,
+				FACBF34F17D507D200C946F0 /* main.m in Sources */,
+				FACBF35217D507DA00C946F0 /* AppDelegate.m in Sources */,
+				FAA1945317D5132400C49D2F /* ExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA83F9BA17D506390016307E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACBF34217D507A700C946F0 /* CJAHaversineTests.m in Sources */,
+				FACBF35317D507E100C946F0 /* CJAHaversine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA83F9C517D506390016307E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA83F99E17D506390016307E /* CJAHaversine */;
+			targetProxy = FA83F9C417D506390016307E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA83F9CF17D506390016307E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA83F9D017D506390016307E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA83F9D217D506390016307E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAHaversine-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CJAHaversine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA83F9D317D506390016307E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Other Sources/CJAHaversine-Prefix.pch";
+				INFOPLIST_FILE = "Example/Other Sources/CJAHaversine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA83F9D517D506390016307E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAHaversine.app/CJAHaversine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Other Sources/CJAHaversineTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Other Sources/CJAHaversineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA83F9D617D506390016307E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CJAHaversine.app/CJAHaversine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Other Sources/CJAHaversineTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Other Sources/CJAHaversineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA83F99A17D506390016307E /* Build configuration list for PBXProject "CJAHaversine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83F9CF17D506390016307E /* Debug */,
+				FA83F9D017D506390016307E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83F9D117D506390016307E /* Build configuration list for PBXNativeTarget "CJAHaversine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83F9D217D506390016307E /* Debug */,
+				FA83F9D317D506390016307E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83F9D417D506390016307E /* Build configuration list for PBXNativeTarget "CJAHaversineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83F9D517D506390016307E /* Debug */,
+				FA83F9D617D506390016307E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA83F99717D506390016307E /* Project object */;
+}
