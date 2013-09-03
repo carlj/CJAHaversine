@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>33C8EB65-1A89-460F-9D97-A2EE97CE76B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CJAHaversine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>796082C3-BBFA-4F08-9778-B5022EC33C9C</key>
+		<string>https://github.com/carlj/CJAHaversine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CJAHaversine.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>796082C3-BBFA-4F08-9778-B5022EC33C9C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carlj/CJAHaversine.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>796082C3-BBFA-4F08-9778-B5022EC33C9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>796082C3-BBFA-4F08-9778-B5022EC33C9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CJAHaversine</string>
+		</dict>
+	</array>
+</dict>
+</plist>
