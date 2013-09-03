@@ -1,6 +1,7 @@
 #CJAHaversine
-Calculate the distance betweens two GPS coordinates with the [Haversine Formular](http://en.wikipedia.org/wiki/Haversine_formula).
-
+Calculate the distance betweens two GPS coordinates with the [Haversine Formular](http://en.wikipedia.org/wiki/Haversine_formula).  
+  
+[![Build Status](https://travis-ci.org/carlj/CJAHaversine.png?branch=master)](https://travis-ci.org/carlj/CJAHaversine)
 ##Installation
 * Drag & Drop `CJAHaversine.h` and `CJAHaversine.m` to your project
 
