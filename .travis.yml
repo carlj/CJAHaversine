@@ -1,0 +1,3 @@
+language: objective-c
+
+script: xctool -project CJAHaversine.xcodeproj -scheme "Tests" build test -sdk iphonesimulator -arch i386
