@@ -2,4 +2,4 @@
 language: objective-c
 
 script:
-  - xctool -project CJAHaversine.xcodeproj -scheme "CJAHaversine" build test -sdk iphonesimulator -arch i386
+  - xctool -project CJAHaversine.xcodeproj -scheme "CJAHaversine" build test -sdk iphonesimulator6.0 -arch i386
