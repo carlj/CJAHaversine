@@ -1,11 +1,5 @@
 ---
 language: objective-c
 
-before_script:
-  - sudo easy_install cpp-coveralls
-
 script:
   - xctool -project CJAHaversine.xcodeproj -scheme "CJAHaversine" build test -sdk iphonesimulator -arch i386
-
-after_success:
-  - ./script/coveralls.sh
