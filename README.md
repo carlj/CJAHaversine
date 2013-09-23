@@ -1,6 +1,8 @@
 #CJAHaversine
 Calculate the distance betweens two GPS coordinates with the [Haversine Formular](http://en.wikipedia.org/wiki/Haversine_formula).  
   
+As of iOS 7 release, you can use the [MKDistanceFormatter](https://www.google.de/search?client=safari&rls=en&q=MKDistanceFormatter&ie=UTF-8&oe=UTF-8&gws_rd=cr&ei=FE9AUr__LsGn0AWxtoDACg) Class to calculate the distance between two locations.
+
 [![Build Status](https://travis-ci.org/carlj/CJAHaversine.png?branch=master)](https://travis-ci.org/carlj/CJAHaversine)
 
 ##Installation
