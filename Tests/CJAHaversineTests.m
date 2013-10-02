@@ -79,12 +79,12 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
 - (void)testLocationDistanceWithCoreLocationsInMetricSystem {
 
   double distance = kHaversineDistanceError;
+
+  distance = CJAHaversineKilometersBetweenCLLocations(first, second);
+  STAssertEqualsWithAccuracy(distance, 9.76, 0.1, @"Failed to calculate distance in miles");
   
-  distance = CJAHaversineKilometersBetweenLocations(lat1, lon1, lat2, lon2);
-  STAssertEqualsWithAccuracy(distance, 15.72, 0.1, @"Failed to calculate distance in kilometers");
-  
-  distance = CJAHaversineMetersBetweenLocations(lat1, lon1, lat2, lon2);
-  STAssertEqualsWithAccuracy(distance, 15729.0, 1.0, @"Failed to calculate distance in meters");  
+  distance = CJAHaversineMetersBetweenCLLocations(first, second);
+  STAssertEqualsWithAccuracy(distance, 51588.0, 1.0, @"Failed to calculate distance in feets");
 }
 
 - (void)testLocationDistanceWithCoreLocationsInImperialSystem {
@@ -115,7 +115,7 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   
   distance = CJAHaversineKilometersBetweenLocations(-100, lon1, lat2, lon2);
   STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in kilometers");
-  
+             
   distance = CJAHaversineMetersBetweenLocations(-100, lon1, lat2, lon2);
   STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in meters");
 
