@@ -7,7 +7,7 @@
 //
 
 #import "CJAHaversineTests.h"
-
+#import <CoreLocation/CoreLocation.h>
 #import "CJAHaversine.h"
 
 // Cupertino - Infinity Loop
@@ -56,6 +56,8 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   STAssertFalse(validLocation, @"Given location is valid");
 }
 
+
+
 - (void)testLocationDistanceInMetricSystem {
   double distance = kHaversineDistanceError;
   
@@ -99,5 +101,37 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   STAssertEqualsWithAccuracy(distance, 51588.0, 1.0, @"Failed to calculate distance in feets");
 }
 #endif
+
+
+- (void)testNotValidLocationCalculation {
+  double distance = kHaversineDistanceError;
+  
+  distance = CJAHaversineKilometersBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in kilometers");
+  
+  distance = CJAHaversineMetersBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in meters");
+  
+  distance = CJAHaversineMilesBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in miles");
+  
+  distance = CJAHaversineFeetsBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in feets");
+  
+  
+  distance = CJAHaversineKilometersBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in kilometers");
+  
+  distance = CJAHaversineMetersBetweenLocations(-100, lon1, lat2, lon2);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in meters");
+
+  CLLocationCoordinate2D f1 = (CLLocationCoordinate2D){-100, lon1};
+  distance = CJAHaversineMilesBetweenCLLocations(f1, second);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in miles");
+  
+  distance = CJAHaversineFeetsBetweenCLLocations(f1, second);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in feets");
+
+}
 
 @end
