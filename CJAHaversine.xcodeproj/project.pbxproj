@@ -383,6 +383,8 @@
 		FA83F9D217D506390016307E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/CJAHaversine-Prefix.pch";
 				INFOPLIST_FILE = "Example/Other Sources/CJAHaversine-Info.plist";
@@ -395,6 +397,8 @@
 		FA83F9D317D506390016307E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Other Sources/CJAHaversine-Prefix.pch";
 				INFOPLIST_FILE = "Example/Other Sources/CJAHaversine-Info.plist";
