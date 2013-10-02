@@ -18,10 +18,8 @@ double const lon1 = -122.0436444;
 double const lat2 = 37.429167;
 double const lon2 = -122.138056;
 
-#ifdef __CORELOCATION__
 CLLocationCoordinate2D const first = (CLLocationCoordinate2D){lat1, lon1};
 CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
-#endif
 
 @implementation CJAHaversineTests
 
@@ -78,8 +76,6 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   STAssertEqualsWithAccuracy(distance, 51588.0, 1.0, @"Failed to calculate distance in feets");
 }
 
-
-#ifdef __CORELOCATION__
 - (void)testLocationDistanceWithCoreLocationsInMetricSystem {
 
   double distance = kHaversineDistanceError;
@@ -100,8 +96,6 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   distance = CJAHaversineFeetsBetweenCLLocations(first, second);
   STAssertEqualsWithAccuracy(distance, 51588.0, 1.0, @"Failed to calculate distance in feets");
 }
-#endif
-
 
 - (void)testNotValidLocationCalculation {
   double distance = kHaversineDistanceError;
