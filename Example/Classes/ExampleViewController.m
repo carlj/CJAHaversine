@@ -33,17 +33,18 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   
   //Imperial Functions//
 
-  //Calculate the distance between two location in kilometers
+  //Calculate the distance between two location in miles
   distance = CJAHaversineMilesBetweenLocations(lat1, lon1, lat2, lon2);
   
-  //Calculate the distance between two location in meters
+  //Calculate the distance between two location in feets
   distance = CJAHaversineFeetsBetweenLocations(lat1, lon1, lat2, lon2);
 
-  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+  //Calculate the distance between two CLLocationCoordinate2D in miles
   distance = CJAHaversineMilesBetweenCLLocations(first, second);
-  
-  //Calculate the distance between two CLLocationCoordinate2D in kilometers
+
+  //Calculate the distance between two CLLocationCoordinate2D in feets
   distance = CJAHaversineFeetsBetweenCLLocations(first, second);
+  
   
   
   //Metric Functions
@@ -55,13 +56,23 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   distance = CJAHaversineMetersBetweenLocations(lat1, lon1, lat2, lon2);
 
   //Calculate the distance between two CLLocationCoordinate2D in kilometers
-  distance = CJAHaversineKilometersBetweenLocations(lat1, lon1, lat2, lon2);
+  distance = CJAHaversineKilometersBetweenCLLocations(first, second);
   
   //Calculate the distance between two CLLocationCoordinate2D in kilometers
-  distance = CJAHaversineMetersBetweenLocations(lat1, lon1, lat2, lon2);
+  distance = CJAHaversineMetersBetweenCLLocations(first, second);
 
   
   
+  //Test if coordinates are valid
+  BOOL validLocation = NO;
+  
+  //valid location
+  validLocation = CJAHaversineLocationIsValid(lat1, lon1);
+
+  //invalid locations
+  validLocation = CJAHaversineLocationIsValid(-100, lon1);
+  validLocation = CJAHaversineLocationIsValid(lat1, 200);
+
 }
 
 @end
