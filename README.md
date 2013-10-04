@@ -4,6 +4,7 @@ Calculate the distance betweens two GPS coordinates with the [Haversine Formular
 As of iOS 7 release, you can use the [MKDistanceFormatter](https://developer.apple.com/library/ios/documentation/MapKit/Reference/MKDistanceFormatter_class/Reference/Reference.html) Class to calculate the distance between two locations.
 
 [![Build Status](https://travis-ci.org/carlj/CJAHaversine.png?branch=master)](https://travis-ci.org/carlj/CJAHaversine)
+[![Coverage Status](https://coveralls.io/repos/carlj/CJAHaversine/badge.png?branch=master)](https://coveralls.io/r/carlj/CJAHaversine?branch=master)
 
 ##Installation
 * Drag & Drop `CJAHaversine.h` and `CJAHaversine.m` to your project
