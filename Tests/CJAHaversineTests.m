@@ -126,6 +126,12 @@ CLLocationCoordinate2D const second = (CLLocationCoordinate2D){lat2, lon2};
   distance = CJAHaversineFeetsBetweenCLLocations(f1, second);
   STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in feets");
 
+  distance = CJAHaversineKilometersBetweenCLLocations(f1, second);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 0.1, @"Failed to calculate distance in kilometers");
+  
+  distance = CJAHaversineMetersBetweenCLLocations(f1, second);
+  STAssertEqualsWithAccuracy(distance, kHaversineDistanceError, 1.0, @"Failed to calculate distance in meters");
+
 }
 
 @end
